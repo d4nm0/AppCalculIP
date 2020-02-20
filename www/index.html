@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<script type="text/javascript" src="js/index.js"></script>
+<html>
+	<head>
+		
+		<title>Calculateur IP</title>
+		
+	</head>
+		<body >
+			<div >
+			<h1 class="h1">Calculateur D'Adresse IP</h1>
+			<h6 class="h1">Veuillez cliquer sur Masque si vous ne possédez pas de CIDR</h6>
+			<div class="adresseinput">
+				<div style="text-align:center;">
+			 	AdresseIP :<br>
+				<input type='text' class='adresse' id='A1' name="A1" maxlength="3" size="3" onKeyUp="suivant(this, 'A2', 3)" onkeypress="verifierCaracteres(event); return false;"> .
+				<input type='text' class='adresse' id='A2' name="A2" maxlength="3" size="3" onKeyUp="suivant(this, 'A3', 3)" onkeypress="verifierCaracteres(event); return false;"> .
+				<input type='text' class='adresse' id='A3' name="A3" maxlength="3" size="3" onKeyUp="suivant(this, 'A4', 3)" onkeypress="verifierCaracteres(event); return false;"> .
+				<input type='text' class='adresse' id='A4' name="A4" maxlength="3" size="3" onKeyUp="suivant(this, 'masque', 3)" onkeypress="verifierCaracteres(event); return false;"> /
+				<input type='text' class='adresse' id='masque' name="masque" maxlength="2" size="2" onkeypress="verifierCaracteres(event); return false;">
+
+				<button id="button" onclick='calculate();'>Calculer</button>
+				<a href="masque.html"><button id="button">Masque</button></a>
+				</div>
+            </div>
+				<br>
+				<div  class='resultat'>
+					<span class=label>AdresseIP =</span>
+					<span class=value id=resultatIP></span>
+				</div>
+				<div  class='resultat'>
+					<span class=label>Masque de Sous-Réseau =</span>
+					<span class=value id=resultatMasque></span>
+				</div>
+				<div  class='resultat'>
+					<span class=label>ID Réseau =</span>
+					<span class=value id=resultatReseau></span>
+				</div>
+				<div  class='resultat'>
+					<span class=label>ID Diffusion =</span>
+					<span class=value id=resultatDiffusion></span>
+				</div>
+				<div  class='resultat'>
+					<span class=label>Classe @IP =</span>
+					<span class=value id=ClasseIP></span>
+				</div>
+				<div  class='resultat'>
+					<span class=label>Plage D'Adresses =</span>
+					<span class=value id=PlageAdresse></span>
+				</div>
+
+				</div>
+		</body>
+</html>
