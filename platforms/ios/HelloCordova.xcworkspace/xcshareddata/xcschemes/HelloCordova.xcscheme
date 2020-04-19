@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "HelloCordova.app"
-               BlueprintName = "HelloCordova"
-               ReferencedContainer = "container:HelloCordova.xcodeproj">
+               BuildableName = "CalculIP.app"
+               BlueprintName = "CalculIP"
+               ReferencedContainer = "container:CalculIP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "HelloCordova.app"
-            BlueprintName = "HelloCordova"
-            ReferencedContainer = "container:HelloCordova.xcodeproj">
+            BuildableName = "CalculIP.app"
+            BlueprintName = "CalculIP"
+            ReferencedContainer = "container:CalculIP.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "HelloCordova.app"
-            BlueprintName = "HelloCordova"
-            ReferencedContainer = "container:HelloCordova.xcodeproj">
+            BuildableName = "CalculIP.app"
+            BlueprintName = "CalculIP"
+            ReferencedContainer = "container:CalculIP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "HelloCordova.app"
-            BlueprintName = "HelloCordova"
-            ReferencedContainer = "container:HelloCordova.xcodeproj">
+            BuildableName = "CalculIP.app"
+            BlueprintName = "CalculIP"
+            ReferencedContainer = "container:CalculIP.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
